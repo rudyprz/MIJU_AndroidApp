@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MuseoMijuPhotos</string>
+    <string name="texto_temo">¿Porqué es importante inscribirte en el Club del Tío Temo?\n\n
+        -Entérate de los avances de la construcción del Museo MIJU\n
+        -Participa en los concursos para ganar premios interesantes\n
+        Recibe descuentos en las entradas (próximamente)\n
+        Previo a la apertura del museo tendrás privilegios exclusivos para “sobrinos” del Tío Temo\n
+        Dinos qué más te gustaría recibir de este club en info@museomiju.com\n
+        ¡Haremos de cada visita, una experiencia única!\n\n
+        —Tío Temo
+    </string>
+</resources>

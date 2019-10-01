@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        tools:context="com.brounie.mijuphotos.Activities.AddPhoto">
+
+    <Button android:id="@+id/addPhoto_btn"
+            android:text="Add photo"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@drawable/layout_bg2"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    <Button android:id="@+id/end_btn"
+            android:text="End"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/addPhoto_btn"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/layout_bg2"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
